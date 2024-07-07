@@ -1,6 +1,7 @@
 import '../../css/home.css'
 import Social from './Social.jsx'
 import Data from "./Data";
+import ScrollDown from "./ScrollDown";
 
 function Home() {
 
@@ -16,6 +17,9 @@ function Home() {
 
                     <Data />
                 </div>
+
+
+                <ScrollDown/>
             </div>
         </section>
 
